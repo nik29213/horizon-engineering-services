@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/nik29213/horizon-engineering-services.git/static/css/main.8b71af63.css",
-    "main.js": "/nik29213/horizon-engineering-services.git/static/js/main.2643edb4.js",
-    "index.html": "/nik29213/horizon-engineering-services.git/index.html",
-    "main.8b71af63.css.map": "/nik29213/horizon-engineering-services.git/static/css/main.8b71af63.css.map",
-    "main.2643edb4.js.map": "/nik29213/horizon-engineering-services.git/static/js/main.2643edb4.js.map"
+    "main.css": "/horizon-engineering-services/static/css/main.8b71af63.css",
+    "main.js": "/horizon-engineering-services/static/js/main.2643edb4.js",
+    "index.html": "/horizon-engineering-services/index.html",
+    "main.8b71af63.css.map": "/horizon-engineering-services/static/css/main.8b71af63.css.map",
+    "main.2643edb4.js.map": "/horizon-engineering-services/static/js/main.2643edb4.js.map"
   },
   "entrypoints": [
     "static/css/main.8b71af63.css",
