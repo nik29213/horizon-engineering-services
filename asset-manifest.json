@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/horizon-engineering-services/static/css/main.8b71af63.css",
-    "main.js": "/horizon-engineering-services/static/js/main.2643edb4.js",
+    "main.js": "/horizon-engineering-services/static/js/main.b3239467.js",
     "index.html": "/horizon-engineering-services/index.html",
     "main.8b71af63.css.map": "/horizon-engineering-services/static/css/main.8b71af63.css.map",
-    "main.2643edb4.js.map": "/horizon-engineering-services/static/js/main.2643edb4.js.map"
+    "main.b3239467.js.map": "/horizon-engineering-services/static/js/main.b3239467.js.map"
   },
   "entrypoints": [
     "static/css/main.8b71af63.css",
-    "static/js/main.2643edb4.js"
+    "static/js/main.b3239467.js"
   ]
 }
