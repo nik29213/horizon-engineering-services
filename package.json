@@ -2,7 +2,7 @@
   "name": "horizon-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/nik29213/horizon-engineering-services.git",
+  "homepage": "https://nik29213.github.io/horizon-engineering-services",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
