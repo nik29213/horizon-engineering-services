@@ -192,7 +192,7 @@ export default function Home() {
         <div className="about__visual">
           <div className="about__visual-card">
             <div className="about__visual-accent" />
-            <img src="/logo.jpeg" alt="Horizon" className="about__logo-large" />
+            <img src={process.env.PUBLIC_URL + "/logo.jpeg"} alt="Horizon" className="about__logo-large" />
             <div className="about__visual-text">
               <span>Est. 1999</span>
               <span>•</span>
