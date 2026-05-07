@@ -10,7 +10,7 @@ export default function Footer() {
         {/* Brand */}
         <div className="footer__brand">
           <div className="footer__logo-row">
-            <img src="/logo.jpeg" alt="Horizon Engineering Services" className="footer__logo-img" />
+            <img src={process.env.PUBLIC_URL + "/logo.jpeg"} alt="Horizon Engineering Services" className="footer__logo-img" />
             <span className="footer__brand-name">HORIZON <span className="footer__brand-sub">ENG. SERVICES</span></span>
           </div>
           <p className="footer__tagline">Horizon Engineering Services – Building Energy, Infrastructure, and Life.</p>

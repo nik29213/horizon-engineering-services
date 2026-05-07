@@ -27,7 +27,7 @@ export default function Navbar() {
       <div className="navbar__inner container">
         {/* Logo */}
         <Link to="/" className="navbar__logo" onClick={() => setMenuOpen(false)}>
-          <img src="/logo.jpeg" alt="Horizon Engineering Services Logo" className="navbar__logo-img" />
+          <img src={process.env.PUBLIC_URL + "/logo.jpeg"} alt="Horizon Engineering Services Logo" className="navbar__logo-img" />
           <span className="navbar__brand">HORIZON <span className="navbar__brand-sub">ENG. SERVICES</span></span>
         </Link>
 
