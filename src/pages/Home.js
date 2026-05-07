@@ -112,7 +112,7 @@ export default function Home() {
         <video
           ref={videoRef}
           className="hero__video"
-          src="/hero.mp4"
+          src={process.env.PUBLIC_URL + "/hero.mp4"}
           autoPlay
           muted
           loop
