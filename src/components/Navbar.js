@@ -6,7 +6,6 @@ const NAV_LINKS = [
   { label: 'Home', to: '/' },
   { label: 'Services', to: '/#services' },
   { label: 'About', to: '/#about' },
-  { label: 'Contact', to: '/contact' },
 ];
 
 export default function Navbar() {
@@ -27,8 +26,8 @@ export default function Navbar() {
       <div className="navbar__inner container">
         {/* Logo */}
         <Link to="/" className="navbar__logo" onClick={() => setMenuOpen(false)}>
-          <img src={process.env.PUBLIC_URL + "/logo.jpeg"} alt="Horizon Engineering Services Logo" className="navbar__logo-img" />
-          <span className="navbar__brand">HORIZON <span className="navbar__brand-sub">ENG. SERVICES</span></span>
+          <img src={process.env.PUBLIC_URL + "/logo_text.jpeg"} alt="Horizon Engineering Services LLP Logo" className="navbar__logo-img" />
+          {/* <span className="navbar__brand">HORIZON <span className="navbar__brand-sub">ENGINEERING</span> <span className="navbar__brand-sub">SERVICES LLP</span></span> */}
         </Link>
 
         {/* Desktop links */}

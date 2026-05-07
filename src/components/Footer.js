@@ -10,10 +10,10 @@ export default function Footer() {
         {/* Brand */}
         <div className="footer__brand">
           <div className="footer__logo-row">
-            <img src={process.env.PUBLIC_URL + "/logo.jpeg"} alt="Horizon Engineering Services" className="footer__logo-img" />
+            <img src={process.env.PUBLIC_URL + "/logo.jpeg"} alt="Horizon Engineering Services LLP" className="footer__logo-img" />
             <span className="footer__brand-name">HORIZON <span className="footer__brand-sub">ENG. SERVICES</span></span>
           </div>
-          <p className="footer__tagline">Horizon Engineering Services – Building Energy, Infrastructure, and Life.</p>
+          <p className="footer__tagline">Horizon Engineering Services LLP – Building Energy, Infrastructure, and Life.</p>
           <div className="footer__socials">
             <a
               href="https://instagram.com"
@@ -81,7 +81,7 @@ export default function Footer() {
       </div>
 
       <div className="footer__bottom container">
-        <p>© {new Date().getFullYear()} Horizon Engineering Services. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Horizon Engineering Services LLP. All rights reserved.</p>
         <p>Designed with precision. Built with purpose.</p>
       </div>
     </footer>

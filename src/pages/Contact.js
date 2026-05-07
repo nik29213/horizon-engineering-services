@@ -30,7 +30,7 @@ export default function Contact() {
 
     const payload = {
       access_key: WEB3FORMS_KEY,
-      subject: `New Enquiry from ${form.name} – Horizon Engineering Services`,
+      subject: `New Enquiry from ${form.name} – Horizon Engineering Services LLP`,
       from_name: form.name,
       ...form,
     };

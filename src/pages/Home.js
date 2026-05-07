@@ -15,6 +15,7 @@ const SERVICES = [
     desc: 'End-to-end engineering design and consultancy for complex industrial and commercial projects — from concept to commissioning.',
     color: 'var(--navy)',
     accent: '#fff',
+    image: '/images/engineering.png',
   },
   {
     icon: <FaBoxOpen />,
@@ -22,13 +23,15 @@ const SERVICES = [
     desc: 'Reliable procurement and supply chain management for industrial-grade materials, ensuring quality and on-time delivery.',
     color: 'var(--magenta)',
     accent: '#fff',
+    image: '/images/material-supply.png',
   },
   {
     icon: <FaHardHat />,
     title: 'Construction',
-    desc: 'Turnkey construction services across oil & gas, petrochemical and commercial sectors with uncompromising safety standards.',
+    desc: 'Construction services for commercial and residential buildings, from ground-up builds to fit-outs, delivered on time and to specification.',
     color: 'var(--navy)',
     accent: '#fff',
+    image: '/images/construction.png',
   },
   {
     icon: <FaTools />,
@@ -36,6 +39,7 @@ const SERVICES = [
     desc: 'Professional installation of mechanical, electrical, and structural systems including lifts, elevators and facility equipment.',
     color: 'var(--magenta)',
     accent: '#fff',
+    image: '/images/installation.png',
   },
   {
     icon: <FaLaptopCode />,
@@ -43,6 +47,7 @@ const SERVICES = [
     desc: 'Cutting-edge digital infrastructure, network solutions, and enterprise software tailored for the energy and facilities sectors.',
     color: 'var(--navy)',
     accent: '#fff',
+    image: '/images/it-services.png',
   },
 ];
 
@@ -120,13 +125,13 @@ export default function Home() {
         />
         <div className="hero__overlay" />
         <div className="hero__content container">
-          <div className="hero__tag fade-up">HORIZON ENGINEERING SERVICES</div>
+          {/* <div className="hero__tag fade-up">HORIZON ENGINEERING SERVICES</div> */}
           <h1 className="hero__title fade-up" style={{ animationDelay: '0.15s' }}>
-            Building Energy,<br />Infrastructure,<br />and Life.
+            Building Energy,<br />Infrastructure,<br />and Life
           </h1>
           <div className="hero__tagline-block fade-up" style={{ animationDelay: '0.3s' }}>
             <p>Delivering integrated engineering, construction,<br />
-              and technology solutions across industries.</p>
+              and technology solutions across industries</p>
           </div>
           <div className="hero__actions fade-up" style={{ animationDelay: '0.45s' }}>
             <a href="#services" className="hero__btn hero__btn--primary">Our Services</a>
@@ -144,10 +149,10 @@ export default function Home() {
       <section className="stats">
         <div className="stats__inner container">
           {[
-            { end: 25, suffix: '+', label: 'Years of Experience' },
-            { end: 300, suffix: '+', label: 'Projects Delivered' },
-            { end: 18, suffix: '', label: 'Countries Served' },
-            { end: 1200, suffix: '+', label: 'Professionals' },
+            { end: 40, suffix: '+', label: 'Years of Experience' },
+            // { end: 300, suffix: '+', label: 'Projects Delivered' },
+            // { end: 18, suffix: '', label: 'Countries Served' },
+            // { end: 1200, suffix: '+', label: 'Professionals' },
           ].map(s => (
             <div className="stats__item" key={s.label}>
               <div className="stats__number">
@@ -174,7 +179,12 @@ export default function Home() {
               <div
                 className={`service-card${servicesInView ? ' animate' : ''}`}
                 key={s.title}
-                style={{ animationDelay: `${0.1 + i * 0.1}s`, '--card-color': s.color, '--card-accent': s.accent }}
+                style={{
+                  animationDelay: `${0.1 + i * 0.1}s`,
+                  '--card-color': s.color,
+                  '--card-accent': s.accent,
+                  '--card-image': `url(${process.env.PUBLIC_URL}${s.image})`,
+                }}
               >
                 <div className="service-card__icon">{s.icon}</div>
                 <h3 className="service-card__title">{s.title}</h3>
@@ -194,7 +204,7 @@ export default function Home() {
             <div className="about__visual-accent" />
             <img src={process.env.PUBLIC_URL + "/logo.jpeg"} alt="Horizon" className="about__logo-large" />
             <div className="about__visual-text">
-              <span>Est. 1999</span>
+              <span>Estd. 2025</span>
               <span>•</span>
               <span>Trusted Globally</span>
             </div>
@@ -204,7 +214,7 @@ export default function Home() {
           <span className="section-label">Who We Are</span>
           <h2 className="section-title">A Legacy of<br />Engineering Excellence</h2>
           <p className="about__body">
-            Horizon Engineering Services is a multidisciplinary solutions provider with deep expertise 
+            Horizon Engineering Services LLP is a multidisciplinary solutions provider with deep expertise 
             spanning oil & gas, petrochemical plants, facilities management, and next-generation IT 
             infrastructure. We bring together engineering precision, supply chain strength, and 
             construction capability under one roof — delivering projects that stand the test of time.
