@@ -6,6 +6,7 @@ import {
 } from 'react-icons/fa';
 import { MdElevator } from 'react-icons/md';
 import './Home.css';
+import LegoDivider from './components/LegoDivider';
 
 /* ── Services data ── */
 const SERVICES = [
@@ -196,7 +197,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <LegoDivider />
       {/* ── ABOUT ── */}
       <section className="about" id="about" ref={aboutRef}>
         <div className="about__visual">
