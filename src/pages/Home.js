@@ -183,7 +183,7 @@ export default function Home() {
                   animationDelay: `${0.1 + i * 0.1}s`,
                   '--card-color': s.color,
                   '--card-accent': s.accent,
-                  '--card-image': `url(${process.env.PUBLIC_URL}${s.image})`,
+                  '--card-image': `url(${s.image})`,
                 }}
               >
                 <div className="service-card__icon">{s.icon}</div>
