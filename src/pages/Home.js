@@ -6,7 +6,7 @@ import {
 } from 'react-icons/fa';
 import { MdElevator } from 'react-icons/md';
 import './Home.css';
-import LegoDivider from './components/LegoDivider';
+import LegoDivider from '../components/LegoDivider';
 
 /* ── Services data ── */
 const SERVICES = [
