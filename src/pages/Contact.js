@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaCheckCircle } from 'react-icons/
 import './Contact.css';
 
 /* ─── Replace YOUR_WEB3FORMS_ACCESS_KEY with your actual key from web3forms.com ─── */
-const WEB3FORMS_KEY = 'YOUR_WEB3FORMS_ACCESS_KEY';
+const WEB3FORMS_KEY = 'be8eda4c-5f6d-4326-b0d6-6ddacb6efc58';
 
 const SERVICES_LIST = [
   'Engineering',
