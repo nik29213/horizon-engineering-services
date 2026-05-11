@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
   FaCog, FaBoxOpen, FaHardHat, FaTools, FaLaptopCode,
-  FaOilCan, FaBuilding, FaFlask, FaCity, FaHome, FaArrowUp, FaLaptopCode
+  FaOilCan, FaBuilding, FaFlask, FaCity, FaHome, FaArrowUp, FaLaptopCode, FaFire
 } from 'react-icons/fa';
 import { MdElevator } from 'react-icons/md';
 import './Home.css';
