@@ -49,11 +49,11 @@ export default function Footer() {
         <div className="footer__col">
           <h4 className="footer__heading">Services</h4>
           <ul className="footer__list">
-            <li>Engineering</li>
-            <li>Material Supply</li>
+            <li>IT Services</li>
             <li>Construction</li>
             <li>Installation</li>
-            <li>IT Services</li>
+            <li>Material Supply</li>
+            <li>Engineering</li>
           </ul>
         </div>
 
@@ -62,11 +62,14 @@ export default function Footer() {
           <h4 className="footer__heading">Sectors</h4>
           <ul className="footer__list">
             {/* <li>Oil &amp; Gas</li> */}
-            <li>Facilities</li>
             {/* <li>Petrochemical</li> */}
-            <li>Commercial Buildings</li>
+            <li>IT</li>
             <li>Residential</li>
+            <li>Commercial</li>
             <li>Lifts &amp; Elevators</li>
+            <li>Facilities</li>
+            <li>Energy</li>
+            
           </ul>
         </div>
 

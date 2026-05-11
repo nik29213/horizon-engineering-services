@@ -6,11 +6,11 @@ import './Contact.css';
 const WEB3FORMS_KEY = 'be8eda4c-5f6d-4326-b0d6-6ddacb6efc58';
 
 const SERVICES_LIST = [
-  'Engineering',
-  'Material Supply',
+  'IT Services',
   'Construction',
   'Installation',
-  'IT Services',
+  'Material Supply',
+  'Engineering',
   'General Enquiry',
 ];
 
@@ -96,7 +96,7 @@ export default function Contact() {
               <span className="contact-info__icon"><FaMapMarkerAlt /></span>
               <div>
                 <div className="contact-info__label">Headquarters</div>
-                <span className="contact-info__value">Mumbai, India</span>
+                <span className="contact-info__value">New Delhi, India</span>
               </div>
             </div>
           </div>

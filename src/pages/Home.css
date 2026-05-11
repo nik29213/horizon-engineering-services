@@ -222,6 +222,10 @@
   opacity: 0;
   transform: translateY(32px);
 }
+#services,
+#about {
+  scroll-margin-top: 120px;
+}
 /* .service-card {
   position: relative;
   background: var(--card-color);

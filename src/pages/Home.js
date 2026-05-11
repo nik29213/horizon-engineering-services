@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
   FaCog, FaBoxOpen, FaHardHat, FaTools, FaLaptopCode,
-  FaOilCan, FaBuilding, FaFlask, FaCity, FaHome, FaArrowUp
+  FaOilCan, FaBuilding, FaFlask, FaCity, FaHome, FaArrowUp, FaLaptopCode
 } from 'react-icons/fa';
 import { MdElevator } from 'react-icons/md';
 import './Home.css';
@@ -57,10 +57,12 @@ const SERVICES = [
 const SECTORS = [
   // { icon: <FaOilCan />, label: 'Oil & Gas' },
   // { icon: <FaFlask />, label: 'Petrochemical' },
-  { icon: <FaBuilding />, label: 'Facilities' },
-  { icon: <FaCity />, label: 'Commercial' },
+  { icon: <FaLaptopCode />, label: 'IT' },
   { icon: <FaHome />, label: 'Residential' },
+  { icon: <FaCity />, label: 'Commercial' },
   { icon: <MdElevator />, label: 'Lifts & Elevators' },
+  { icon: <FaBuilding />, label: 'Facilities' },
+  { icon: <FaFire />, label: 'Energy' },
 ];
 
 /* ── Intersection Observer hook ── */
