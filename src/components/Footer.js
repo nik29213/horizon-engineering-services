@@ -61,9 +61,9 @@ export default function Footer() {
         <div className="footer__col">
           <h4 className="footer__heading">Sectors</h4>
           <ul className="footer__list">
-            <li>Oil &amp; Gas</li>
+            {/* <li>Oil &amp; Gas</li> */}
             <li>Facilities</li>
-            <li>Petrochemical</li>
+            {/* <li>Petrochemical</li> */}
             <li>Commercial Buildings</li>
             <li>Residential</li>
             <li>Lifts &amp; Elevators</li>

@@ -71,6 +71,14 @@
 .lego-loader__text {
   display: flex;
   gap: 0.5rem;
+  align-items: center;
+}
+
+.lego-loader__logo {
+  height: 60px;
+  width: auto;
+  opacity: 0;
+  animation: textRise 0.5s ease 1.05s both;
 }
 .lego-loader__text span {
   font-family: 'Barlow Condensed', sans-serif;

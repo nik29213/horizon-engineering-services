@@ -54,8 +54,8 @@ const SERVICES = [
 
 /* ── Sectors data ── */
 const SECTORS = [
-  { icon: <FaOilCan />, label: 'Oil & Gas' },
-  { icon: <FaFlask />, label: 'Petrochemical' },
+  // { icon: <FaOilCan />, label: 'Oil & Gas' },
+  // { icon: <FaFlask />, label: 'Petrochemical' },
   { icon: <FaBuilding />, label: 'Facilities' },
   { icon: <FaCity />, label: 'Commercial' },
   { icon: <FaHome />, label: 'Residential' },
@@ -214,9 +214,15 @@ export default function Home() {
         <div className={`about__content${aboutInView ? ' animate' : ''}`}>
           <span className="section-label">Who We Are</span>
           <h2 className="section-title">A Legacy of<br />Engineering Excellence</h2>
-          <p className="about__body">
+          {/* <p className="about__body">
             Horizon Engineering Services LLP is a multidisciplinary solutions provider with deep expertise 
             spanning oil & gas, petrochemical plants, facilities management, and next-generation IT 
+            infrastructure. We bring together engineering precision, supply chain strength, and 
+            construction capability under one roof — delivering projects that stand the test of time.
+          </p> */}
+          <p className="about__body">
+            Horizon Engineering Services LLP is a multidisciplinary solutions provider with deep expertise 
+            spanning facilities management, and next-generation IT 
             infrastructure. We bring together engineering precision, supply chain strength, and 
             construction capability under one roof — delivering projects that stand the test of time.
           </p>

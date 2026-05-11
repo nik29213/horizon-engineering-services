@@ -49,6 +49,7 @@ export default function LegoLoader() {
           ))}
         </div>
         <div className="lego-loader__text">
+          <img src="/logo.png" alt="HES Logo" className="lego-loader__logo" />
           <span>H</span><span>E</span><span>S</span>
         </div>
         <p className="lego-loader__sub">Building your experience...</p>
