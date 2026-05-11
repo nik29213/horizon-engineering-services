@@ -8,9 +8,9 @@ const BRICKS = [
   { color: '#2B2D7E', row: 1, col: 0, studs: 2 },
   { color: '#9B2D7F', row: 1, col: 2, studs: 2 },
   { color: '#2B2D7E', row: 1, col: 4, studs: 2 },
-  { color: '#2B2D7E', row: 2, col: 0, studs: 2 },
-  { color: '#9B2D7F', row: 2, col: 2, studs: 2 },
-  { color: '#2B2D7E', row: 2, col: 4, studs: 2 },
+  { color: '#9B2D7F', row: 2, col: 0, studs: 2 },
+  { color: '#2B2D7E', row: 2, col: 2, studs: 2 },
+  { color: '#9B2D7F', row: 2, col: 4, studs: 2 },
 ];
 
 export default function LegoLoader() {
