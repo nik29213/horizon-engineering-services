@@ -11,20 +11,12 @@ import LegoDivider from '../components/LegoDivider';
 /* ── Services data ── */
 const SERVICES = [
   {
-    icon: <FaCog />,
-    title: 'Engineering',
-    desc: 'End-to-end engineering design and consultancy for complex industrial and commercial projects — from concept to commissioning.',
+    icon: <FaLaptopCode />,
+    title: 'IT Services',
+    desc: 'Cutting-edge digital infrastructure, network solutions, and enterprise software tailored for the energy and facilities sectors.',
     color: 'var(--navy)',
     accent: '#fff',
-    image: '/images/engineering.png',
-  },
-  {
-    icon: <FaBoxOpen />,
-    title: 'Material Supply',
-    desc: 'Reliable procurement and supply chain management for industrial-grade materials, ensuring quality and on-time delivery.',
-    color: 'var(--magenta)',
-    accent: '#fff',
-    image: '/images/material-supply.png',
+    image: '/images/it-services.png',
   },
   {
     icon: <FaHardHat />,
@@ -43,13 +35,22 @@ const SERVICES = [
     image: '/images/installation.png',
   },
   {
-    icon: <FaLaptopCode />,
-    title: 'IT Services',
-    desc: 'Cutting-edge digital infrastructure, network solutions, and enterprise software tailored for the energy and facilities sectors.',
+    icon: <FaBoxOpen />,
+    title: 'Material Supply',
+    desc: 'Reliable procurement and supply chain management for industrial-grade materials, ensuring quality and on-time delivery.',
+    color: 'var(--magenta)',
+    accent: '#fff',
+    image: '/images/material-supply.png',
+  },
+  {
+    icon: <FaCog />,
+    title: 'Engineering',
+    desc: 'End-to-end engineering design and consultancy for complex industrial and commercial projects — from concept to commissioning.',
     color: 'var(--navy)',
     accent: '#fff',
-    image: '/images/it-services.png',
+    image: '/images/engineering.png',
   },
+  
 ];
 
 /* ── Sectors data ── */
